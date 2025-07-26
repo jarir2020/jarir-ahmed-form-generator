@@ -3,7 +3,7 @@ namespace JarirAhmed\FormGenerator;
 
 class ContactUsForm
 {
-    public function render()
+    public static function render()
     {
         return '
             <style>
