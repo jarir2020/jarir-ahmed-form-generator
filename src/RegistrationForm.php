@@ -3,7 +3,7 @@ namespace JarirAhmed\FormGenerator;
 
 class RegistrationForm
 {
-    public function render()
+    public static function render()
     {
         return '
             <style>
