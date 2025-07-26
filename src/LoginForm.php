@@ -3,7 +3,7 @@ namespace JarirAhmed\FormGenerator;
 
 class LoginForm
 {
-    public function render()
+    public static function render()
     {
         return '
             <style>
