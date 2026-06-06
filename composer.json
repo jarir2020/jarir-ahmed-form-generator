@@ -3,6 +3,7 @@
     "description": "A package to generate reusable login, registration, and contact us forms in PHP.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["form", "html", "login", "registration", "csrf"],
     "authors": [
         {
             "name": "Jarir Ahmed",
@@ -14,11 +15,19 @@
             "JarirAhmed\\FormGenerator\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "JarirAhmed\\FormGenerator\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": ">=7.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit"
     },
     "minimum-stability": "stable",
     "extra": {
